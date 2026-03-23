@@ -1,18 +1,17 @@
 {
   "name": "claude-matrix-channel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Matrix channel for Claude Code — control Claude from your phone via Matrix",
+  "main": "matrix-channel.mjs",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node matrix-channel.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": ["claude", "matrix", "mcp", "channel"],
+  "author": "0xYuk1",
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
-    "matrix-js-sdk": "^41.2.0-rc.0",
     "zod": "^4.3.6"
   }
 }
